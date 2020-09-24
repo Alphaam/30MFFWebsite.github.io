@@ -1,0 +1,39 @@
+body {
+ 
+ background-color: #F5F5DC;
+ background: url("header4.jpg") top no-repeat, url("header4.jpg") top right no-repeat, url("header4.jpg") top left no-repeat, url("header4.jpg") top left no-repeat,url("header4.jpg") top right no-repeat, url(collage.jpg) repeat;
+ background-size: 450px 150px ,450px 150px, 450px 150px, 500px 150px, 500px 150px, 350px 350px;
+ 
+
+}
+.img-1{
+		position: absolute;
+		top:150px;
+		left: 0px;	
+}
+
+.img-2{
+		position: absolute;
+		top:150px;
+		right: 0px;
+
+
+}
+
+/*.img-3{
+		position: absolute;
+		top:0px;
+		right: 345px;
+}*/
+h1{
+	color: red;
+	position: absolute;
+	right: 450px;
+}
+p{
+	position: absolute;
+	top: 60px;
+	left: 300px;
+	color: red;
+}
+
