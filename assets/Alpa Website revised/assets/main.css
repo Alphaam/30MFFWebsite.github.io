@@ -1,0 +1,407 @@
+/*importing google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Grenze&family=Grenze+Gotisch:wght@100;188;300;400;800&family=Roboto&display=swap');
+
+
+/*Introducing page scroll behaviour*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*dividing page into sections to be able to scroll using buttons*/
+#IntroPage {
+	padding: 1% 0% 2% 0%;
+}
+
+#AboutPage {
+  padding: 1% 0% 2% 0%;
+  
+}
+
+#StarsPage {
+	padding: 3% 0% 9% 0%;
+}
+#ConnectPage {
+padding: 1% 0% 2% 0%;
+}
+
+
+/*setting background*/
+body {
+	background-image: url("collage.jpg") ;	
+}
+
+
+/*header section*/
+header{
+
+	background-color: rgba(255, 255, 255, 0.9); 
+	position: relative;	 
+	text-align: center;
+	min-width: 510px; 
+	margin-bottom: 0%;
+	margin-top: 0%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 20% 10%;
+}
+
+
+/*About section*/
+.about{
+
+	background-color: rgba(255, 255, 255, 0.9); 	 
+	text-align: center; 
+	margin-bottom: 0%;
+	margin-top: 0%;
+	margin-left: 1%;
+	margin-right: 1%;
+min-width: 510px;
+	padding: 5% 10% 9% 10%;
+}
+
+
+/*Characters section*/
+.clips{
+	background-color: rgba(255, 255, 255, 0.9); 	 
+	text-align: center;
+	min-width: 510px; 
+	margin-bottom: 0%;
+	margin-top: 0%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 20% 10% ;
+}
+
+
+/*footer section*/
+footer{
+	background-color: rgba(255, 255, 255, 0.9); 	 
+	text-align: center;
+	margin-top : 0%;
+	margin-bottom : 0%;
+	margin-left : 10%;
+	margin-right: 10%;
+	min-width: 430px;
+	padding: 1% 10% ;
+}
+
+
+/*feedback form*/
+.content{
+	padding: 6.4% 5% 2.9% 5%;
+	background-color: rgba(169,169,169, 0.35);
+ 	display: inline-block;	
+	text-align: center; 
+	width:300px;
+	height-bottom: 200px;
+	
+	
+}
+
+
+/*Email, address and phone number*/
+.content2{
+	padding: 3% 5% ;
+background-color: rgba(169,169,169, 0.35);
+ 	display: inline-block;
+	
+	text-align: center;
+	min-width: 300px; 
+	min-height: 200px;
+	width:30%;
+	height-top:20%;
+}
+
+
+
+/*social media*/
+.content3{
+background-color: rgba(169,169,169, 0.35);
+}	
+
+
+
+/*control behaviour of page when screen is minimized*/
+.minwidth{
+position: relative;
+	background-color: rgba(255, 255, 255, 0.9);
+	min-width: 400px;
+	padding:1px 23%;
+
+}
+
+
+
+/*setting up fonts*/
+h1{
+	
+	background-color: rgba(169,169,169, 0.35);
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 60px;
+}
+p{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+
+}
+
+.p1{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+
+}
+
+h2{
+	background-color: rgba(169,169,169, 0.35);
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 40px;
+}
+
+h3{
+	
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 20px;
+}
+
+
+
+
+/*setting up button positions*/
+.block1 {
+
+  border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+	font-family: 'Roboto', sans-serif;
+display: inline-block;
+	top:93%; 
+	left:5%;
+
+	width: 250px;
+}
+.block2 {
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: absolute;
+	
+	display: inline-block;
+font-family: 'Roboto', sans-serif;
+	
+	top:93%;
+	right: 40%;
+	width: 200px;
+}
+.block3 {
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	 
+	right: 5%;
+	top:93%;
+	width: 200px;
+}
+.block4 {
+
+ border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: absolute;
+	
+	display: inline-block;
+	 
+	left: 5%;
+	top:93%;
+	width: 250px;
+}
+.block6 {
+border: none;
+
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+	position: absolute;
+	
+	display: inline-block;
+	text-align: center; 
+	right: 5%;
+	top:93%;
+	width: 250px;
+}
+.block7 {
+
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+	position: absolute;
+	
+	display: inline-block;
+	text-align: center; 
+	left: 5%;
+	top:93%;
+	width: 250px;
+}
+.block8 {
+
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+	position: absolute;
+	
+	display: inline-block;
+	text-align: center; 
+	right: 5%;
+	top:93%;
+	width: 250px;
+}
+.block10 {
+
+border: none;
+  background-color: rgba(169,169,169,0.9);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+	position: absolute;
+	
+	display: inline-block;
+	text-align: center;
+	
+	
+	right: 43%;
+	width: 200px;
+}
+.blockLeft {
+
+ border: none; 
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+	font-family: 'Roboto', sans-serif;
+display: inline-block;
+	top:90%; 
+	right:20%;
+
+	width: 250px;
+}
+.blockCenter {
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: relative;
+	
+	display: inline-block;
+font-family: 'Roboto', sans-serif;
+	
+	top:90%;
+	right: 0%;
+	width: 200px;
+}
+.blockRight {
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	 
+	left: 30%;
+	top:90%;
+	width: 200px;
+}
+.blockHome {
+border: none;
+  background-color: rgba(169,169,169, 0.5);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	width: 200px;
+}
+
+.block:hover {
+  background-color: rgba(169,169,169);
+  color: black;
+}
+
+
+
+
+
+/*setting up social media icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+		
